@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\balipratiwi\AppData\Local\Microsoft\WindowsApps;C:\Users\balipratiwi\AppData\Roaming\Composer\vendor\bin;C:\Users\balipratiwi\AppData\Roaming\npm;C:\Users\balipratiwi\AppData\Local\atom\bin;C:\Users\balipratiwi\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "Latihan1",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-native-scripts": "1.11.1",
+      "jest-expo": "25.0.0",
+      "react-test-renderer": "16.2.0"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+      "start": "react-native-scripts start",
+      "eject": "react-native-scripts eject",
+      "android": "react-native-scripts android",
+      "ios": "react-native-scripts ios",
+      "test": "node node_modules/jest/bin/jest.js"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^25.0.0",
+      "react": "16.2.0",
+      "react-native": "0.52.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\mobile\Pencarian Rumah Kost\node_modules\acorn-jsx\node_modules\.bin'
